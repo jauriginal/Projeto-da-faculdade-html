@@ -1,0 +1,199 @@
+/* Cores e fontes usadas no site */
+
+body {
+    margin: 0;
+    background-color: #faf3e7;
+    color: #3b2620;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    color: #3b2620;
+}
+
+a {
+    color: #a63d2f;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Cabeçalho */
+
+header {
+    background-color: #3b2620;
+    color: #faf3e7;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #faf3e7;
+}
+
+header p {
+    color: #d9a441;
+}
+
+.selo {
+    margin-top: 10px;
+    display: inline-block;
+    border: 2px dashed #d9a441;
+    border-radius: 50%;
+    color: #d9a441;
+    padding: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+/* Menu de navegação */
+
+nav {
+    background-color: #efe0c9;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+nav a {
+    color: #3b2620;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a63d2f;
+}
+
+nav a.login {
+    background-color: #a63d2f;
+    color: #faf3e7;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+
+/* Conteúdo principal */
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+section {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+    background-color: #efe0c9;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+/* Cartões de produto, um do lado do outro com flexbox */
+
+.grade-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.produto {
+    flex: 1;
+    min-width: 220px;
+    background-color: white;
+    border: 1px solid #d8c6a3;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.preco {
+    color: #a63d2f;
+    font-weight: bold;
+}
+
+
+/* Botões */
+
+.botao {
+    display: inline-block;
+    background-color: #a63d2f;
+    color: #faf3e7;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #3b2620;
+}
+
+
+/* Formulários */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    padding: 8px;
+    border: 1px solid #d8c6a3;
+    border-radius: 5px;
+}
+
+
+/* Caixa de login */
+
+.caixa-login {
+    max-width: 400px;
+    margin: 30px auto;
+    background-color: white;
+    border: 1px solid #d8c6a3;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.aviso-credenciais {
+    background-color: #efe0c9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* Rodapé */
+
+footer {
+    background-color: #3b2620;
+    color: #efe0c9;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: #d9a441;
+}
